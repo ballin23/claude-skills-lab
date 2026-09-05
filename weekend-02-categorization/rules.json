@@ -1,0 +1,102 @@
+{
+  "rules": [
+    {
+      "tier": 1,
+      "account": "Operating",
+      "bai_code": "455",
+      "keywords": ["Payment", "Payable"],
+      "category": "A/P"
+    },
+    {
+      "tier": 1,
+      "account": "Operating",
+      "bai_code": "455",
+      "keywords": ["EFTPS", "TAX"],
+      "category": "Taxes"
+    },
+    {
+      "tier": 1,
+      "account": "Operating",
+      "bai_code": "495",
+      "keywords": ["PROPERTY", "LLC"],
+      "category": "Real Estate"
+    },
+    {
+      "tier": 2,
+      "account": "Operating",
+      "bai_code": "455",
+      "keywords": ["AMEX", "AMERICAN EXPRESS", "VISA AUTOPAY", "CARD PAYMENT"],
+      "category": "Credit Card"
+    },
+    {
+      "tier": 2,
+      "account": "Operating",
+      "bai_code": "495",
+      "keywords": ["LOANPMT", "TERM LOAN", "DEBT SERVICE", "PRIN & INT"],
+      "category": "Debt Service"
+    },
+    {
+      "tier": 2,
+      "account": "Operating",
+      "bai_code": "115",
+      "keywords": ["LOCKBOX"],
+      "category": "A/R"
+    },
+    {
+      "tier": 3,
+      "account": "Payroll",
+      "bai_code": "455",
+      "category": "Payroll"
+    },
+    {
+      "tier": 3,
+      "account": "Payroll",
+      "bai_code": "475",
+      "category": "Payroll"
+    },
+    {
+      "tier": 3,
+      "account": "Operating",
+      "bai_code": "698",
+      "category": "Bank Fees"
+    },
+    {
+      "tier": 3,
+      "account": "Operating",
+      "bai_code": "195",
+      "category": "Wire Transfer"
+    },
+    {
+      "tier": 4,
+      "account": "Operating",
+      "keywords": ["FEDWIRE", "OUTGOING WIRE", "WIRE OUT"],
+      "category": "Wire Transfer"
+    },
+    {
+      "tier": 4,
+      "account": "Operating",
+      "keywords": ["PROPERTY TAX", "COUNTY TAX", "PARCEL"],
+      "category": "Taxes"
+    },
+    {
+      "tier": 5,
+      "account": "Investment Sweep",
+      "category": "Investments"
+    },
+    {
+      "tier": 5,
+      "account": "Property Escrow",
+      "category": "Real Estate"
+    },
+    {
+      "tier": 6,
+      "keywords": ["INTEREST"],
+      "category": "Interest Income"
+    },
+    {
+      "tier": 6,
+      "keywords": ["ACH DEBIT VENDOR", "VENDOR PMT", "SUPPLIER PMT"],
+      "category": "A/P"
+    }
+  ]
+}
